@@ -14,38 +14,51 @@
         <h1>Типи селекторів</h1>
     </header>
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>Селектор</th>
-                    <th>Приклад</th>
-                    <th>Опис</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Breed</td>
-                    <td>Jack Russell</td>
-                    <td>Poodle</td>
-                </tr>
-                <tr>
-                    <td>Age</td>
-                    <td>16</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>Owner</td>
-                    <td>Mother-in-law</td>
-                    <td>Me</td>
-
-                </tr>
-                <tr>
-                    <td>Eating Habits</td>
-                    <td>Eats everyone's leftovers</td>
-                    <td>Nibbles at food</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Селектор</th>
+                        <th>Приклад</th>
+                        <th>Опис</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Селектор елементу</td>
+                        <td>h1 { }</td>
+                        <td>Змінює стилі відповідно елементу</td>
+                    </tr>
+                    <tr>
+                        <td>Селектор класу</td>
+                        <td>.warp { }</td>
+                        <td>Змінює стиль для усього, до чого застосован даний клас</td>
+                    </tr>
+                    <tr>
+                        <td>Селектор ID</td>
+                        <td>#init { }</td>
+                        <td>Використовуєтся так же, як й селектор класу. Може бути використаний тільки один id для
+                            елементу
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Селектор атрибутів</td>
+                        <td>a[title] { }</td>
+                        <td>Використовуєтся для стилізації окремих атрибутів</td>
+                    </tr>
+                    <tr>
+                        <td>Комбінований селектор</td>
+                        <td>a[title], h1, #init { }</td>
+                        <td>Якщо потрібно зробити стиль для кількох класів одразу</td>
+                    </tr>
+                    <tr>
+                        <td>Селектор за вкладенністю</td>
+                        <td>.warp a або .warp>a {}</td>
+                        <td>Для стилізації елементу який входит у склад іншого елементу</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer></footer>
 </body>
