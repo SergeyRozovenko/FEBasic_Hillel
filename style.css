@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-h1 {
+h1,
+h2 {
   padding: 10px 15px;
   text-align: center;
 }
@@ -27,4 +28,42 @@ table td,
 table th {
   border: 1px solid;
   padding: 10px 15px;
+}
+
+section > div {
+  display: inline-block;
+  border: 2px solid;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.section_1 {
+  margin: auto;
+  max-width: 850px;
+}
+
+#tx2 {
+  color: aquamarine;
+}
+
+p[data-target] {
+  color: blue;
+}
+
+div[class*="new"] {
+  color: red;
+}
+
+p.text3,
+p.text4 {
+  color: blueviolet;
+}
+
+div p.text5,
+div p.text6 {
+  color: brown;
+}
+
+.text7 {
+  color: chartreuse;
 }
