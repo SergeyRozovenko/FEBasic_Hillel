@@ -10,6 +10,7 @@ a {
 
 img {
   max-width: 100%;
+  border-radius: 0.5rem;
 }
 
 html {
@@ -44,4 +45,8 @@ html {
 
 .card > h2 {
   text-align: center;
+}
+
+div + img {
+  border-radius: 0.5rem;
 }
