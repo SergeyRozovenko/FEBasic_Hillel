@@ -15,15 +15,167 @@
     <main>
         <section class="container bg-main">
             <h1>Search you Dream Car</h1>
-            <div class="form_registration">
-                <form action="https://fom.in.ua/echo" method="post">
-                    <input type="text" name="Email" placeholder="Email">
-                    <input type="password" name="Password" placeholder="Password">
-                    <input type="password" name="Repeat Password" placeholder="Repeat password">
+            <form action="https://fom.in.ua/echo" method="post">
+                <h3>Основні параметри</h3>
+                <div class="typeСarbody">
+                    <label>
+                        Тип кузову
+                        <select name="Тип кузова">
+                            <option value="none" disabled selected="selected">Оберіть тип кузову</option>
+                            <option value="Легкові">Легкові</option>
+                            <option value="Вантажні">Вантажні</option>
+                            <option value="Позашляховики">Позашляховики</option>
+                            <option value="Мототехніка">Мототехніка</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="modelCar">
+                    <label>
+                        Марка Авто
+                        <select name="Марка Авто">
+                            <option value="none" disabled selected="selected">Оберіть марку</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Toyota">Toyota</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="countryCar">
+                    <label>
+                        Країна походження
+                        <select name="Країна Виробник">
+                            <option value="none" disabled selected="selected">Оберіть країну походження</option>
+                            <option value="Німеччина">Німеччина</option>
+                            <option value="Японія">Японія</option>
+                            <option value="США">США</option>
+                            <option value="Україна">Україна</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="priceCar">
+                    <label>
+                        Вартість
+                        <input type="number" name="Price_From" placeholder="Від">
+                    </label>
+                    <label>
+                        <input type="number" name="Price_To" placeholder="До">
+                    </label>
+                </div>
+                <div class="yearCar">
+                    <label>
+                        Рік випуску
+                        <input type="number" name="Year_From" placeholder="Від" min="1991">
+                    </label>
+                    <label>
+                        <input type="number" name="Year_To" placeholder="До" min="1991" max="2030">
+                    </label>
+                </div>
+                <div class="colorCar">
+                    <label>
+                        Колір
+                        <input type="color" name="Color" onchange="console.log(event.target.value)">
+                    </label>
 
-                    <button type="submit"> Registration</button>
-                </form>
-            </div>
+                </div>
+                <div class="conditionCar">
+                    <h3>Стан Авто</h3>
+                    <label>
+                        Був у ДТП
+                        <input type="checkbox" name="Був у ДТП">
+                    </label>
+                    <label>
+                        Є фарбовані елементи
+                        <input type="checkbox" name="Є фарбовані елементи">
+                    </label>
+                    <label>
+                        Розмитнена
+                        <input type="checkbox" name="Розмитнена">
+                    </label>
+                    <label>
+                        В арешті
+                        <input type="checkbox" name="В арешті">
+                    </label>
+                </div>
+                <div class="typeFuelCar">
+                    <h3>Вид палива</h3>
+                    <label>
+                        Бензин
+                        <input type="checkbox" name="Бензин">
+                    </label>
+                    <label>
+                        Дизель
+                        <input type="checkbox" name="Дизель">
+                    </label>
+                    <label>
+                        Газ
+                        <input type="checkbox" name="Газ">
+                    </label>
+                    <label>
+                        Інше
+                        <input type="checkbox" name="Інше">
+                    </label>
+                </div>
+                <div class="transmissionCar">
+                    <h3>Трансміссія</h3>
+                    <label>
+                        Автомат
+                        <input type="Radio" name="transmissionCar">
+                    </label>
+                    <label>
+                        Варіатор
+                        <input type="checkbox" name="transmissionCar">
+                    </label>
+                    <label>
+                        Робот
+                        <input type="checkbox" name="transmissionCar">
+                    </label>
+                    <label>
+                        Механіка
+                        <input type="radio" name="transmissionCar">
+                    </label>
+                </div>
+                <section>
+                    <h3>Додаткові опції</h3>
+                    <div class="typeLampCar">
+                        <label>Фари
+                            <select name="Фари">
+                                <option value="0" disabled selected="selected">Оберіть</option>
+                                <option value="1">Ксенонові/Біксенонові</option>
+                                <option value="2">Лазерні</option>
+                                <option value="3">Світлодіодні</option>
+                                <option value="4">Матричні</option>
+                                <option value="5">Галогенні</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="typeSalonCar">
+                        <label>Матеріали салону
+                            <select name="Матеріали салону">
+                                <option value="0" disabled selected="selected">Оберіть</option>
+                                <option value="1">Тканина</option>
+                                <option value="2">Шкіра</option>
+                                <option value="3">Велюр</option>
+                                <option value="4">Комбінований</option>
+                                <option value="5">Штучна шкіра</option>
+                                <option value="6">Алькантара</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="seatCar">
+                        <label class="label">Підігрів сидінь
+                            <select name="Підігрів сидінь">
+                                <option value="0" disabled selected="selected">Оберіть</option>
+                                <option value="1">Передні сидіння</option>
+                                <option value="2">Передні та задні сидіння</option>
+                            </select>
+                        </label>
+                    </div>
+
+
+                </section>
+            </form>
         </section>
     </main>
     <footer></footer>
