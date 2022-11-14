@@ -13,11 +13,11 @@
 <body>
     <header></header>
     <main>
-        <section class="container bg-main">
+        <div class="container bg-main">
             <h1>Search you Dream Car</h1>
             <form action="https://fom.in.ua/echo" method="post">
                 <h3>Основні параметри</h3>
-                <div class="typeСarbody">
+                <div class="typeСarBody">
                     <label>
                         Тип кузову
                         <select name="Тип кузова">
@@ -135,30 +135,30 @@
                         <input type="radio" name="transmissionCar">
                     </label>
                 </div>
-                <section>
+                <div class="optionCar">
                     <h3>Додаткові опції</h3>
                     <div class="typeLampCar">
                         <label>Фари
                             <select name="Фари">
-                                <option value="0" disabled selected="selected">Оберіть</option>
-                                <option value="1">Ксенонові/Біксенонові</option>
-                                <option value="2">Лазерні</option>
-                                <option value="3">Світлодіодні</option>
-                                <option value="4">Матричні</option>
-                                <option value="5">Галогенні</option>
+                                <option value="none" disabled selected="selected">Оберіть</option>
+                                <option value="Ксенонові/Біксенонові">Ксенонові/Біксенонові</option>
+                                <option value="Лазерні">Лазерні</option>
+                                <option value="Світлодіодні">Світлодіодні</option>
+                                <option value="Матричні">Матричні</option>
+                                <option value="Галогенні">Галогенні</option>
                             </select>
                         </label>
                     </div>
                     <div class="typeSalonCar">
                         <label>Матеріали салону
                             <select name="Матеріали салону">
-                                <option value="0" disabled selected="selected">Оберіть</option>
-                                <option value="1">Тканина</option>
-                                <option value="2">Шкіра</option>
-                                <option value="3">Велюр</option>
-                                <option value="4">Комбінований</option>
-                                <option value="5">Штучна шкіра</option>
-                                <option value="6">Алькантара</option>
+                                <option value="none" disabled selected="selected">Оберіть</option>
+                                <option value="Тканина">Тканина</option>
+                                <option value="Шкіра">Шкіра</option>
+                                <option value="Велюр">Велюр</option>
+                                <option value="Комбінований">Комбінований</option>
+                                <option value="Штучна шкіра">Штучна шкіра</option>
+                                <option value="Алькантара">Алькантара</option>
                             </select>
                         </label>
                     </div>
@@ -166,17 +166,17 @@
                     <div class="seatCar">
                         <label class="label">Підігрів сидінь
                             <select name="Підігрів сидінь">
-                                <option value="0" disabled selected="selected">Оберіть</option>
-                                <option value="1">Передні сидіння</option>
-                                <option value="2">Передні та задні сидіння</option>
+                                <option value="none" disabled selected="selected">Оберіть</option>
+                                <option value="Передні сидіння">Передні сидіння</option>
+                                <option value="Передні та задні сидіння">Передні та задні сидіння</option>
                             </select>
                         </label>
                     </div>
 
-
-                </section>
+                </div>
+                <button type="submit">Пошук Авто</button>
             </form>
-        </section>
+        </div>
     </main>
     <footer></footer>
 </body>
