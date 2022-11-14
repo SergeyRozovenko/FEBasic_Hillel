@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeWork_7</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
 </head>
 
@@ -14,14 +14,19 @@
     <header></header>
     <main>
         <section class="container bg-main">
-            <h1>Registration</h1>
+            <h1>Authorization</h1>
             <div class="form_registration">
                 <form action="https://fom.in.ua/echo" method="post">
-                    <input type="text" name="Email" placeholder="Email">
-                    <input type="password" name="Password" placeholder="Password">
-                    <input type="password" name="Repeat Password" placeholder="Repeat password">
-
-                    <button type="submit"> Registration</button>
+                    <label> Enter your EMAIL
+                        <input type="text" name="Email" placeholder="Email">
+                    </label>
+                    <label> Enter your pass
+                        <input type="password" name="Password" placeholder="Password">
+                    </label>
+                    <label> Remember your password?
+                        <input type="checkbox" name="Remember me">
+                    </label>
+                    <button type="submit"> Log IN</button>
                 </form>
             </div>
         </section>
