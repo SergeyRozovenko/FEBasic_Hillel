@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("./Roboto/Roboto-Bold.woff2") format("woff2"),
-    url("./Roboto/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
+  src: url("./Roboto/Roboto-Medium.woff") format("woff2"),
+    url("./Roboto/Roboto-Medium.woff2") format("woff");
+  font-weight: 500;
 }
