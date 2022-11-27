@@ -1,1 +1,33 @@
 @import url(./css/common.css);
+
+.bg-silver {
+  background-color: #eeeff1;
+}
+.main-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  max-width: 540px;
+}
+.nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 79px;
+  padding-bottom: 151px;
+}
+.nav-link + .nav-link {
+  padding-left: 42px;
+}
+
+.main-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  padding-bottom: 60px;
+}
