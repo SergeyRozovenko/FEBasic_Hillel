@@ -32,8 +32,8 @@ html {
 
 /*--------------------Навигация-----------------*/
 
-.list li  {
-list-style: none;
+.list li {
+  list-style: none;
 }
 
 .roster {
@@ -43,41 +43,41 @@ list-style: none;
   min-width: 200px;
   text-align: center;
   position: relative;
-  margin-right: -6px;
+  margin-right: -8px;
   padding: 15px 20px 15px 20px;
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .roster:hover {
-  background:aqua ;
+  background: aqua;
   color: black;
 }
 
 .roster:hover > .sub_list {
   display: block;
-  background:aqua ;
+  background: aqua;
   color: black;
 }
 
 .sub_list {
   display: none;
   position: absolute;
-  top: 65px; 
+  top: 65px;
   left: 0;
   width: 240px;
 }
- .sub_roster,
- .sub_roster_2 {
+.sub_roster,
+.sub_roster_2 {
   padding-top: 20px;
   padding-bottom: 20px;
- }
+}
 
 .sub_roster:hover > .sub_list_2 {
   display: block;
-  background:aqua ;
+  background: aqua;
   color: black;
-  }
+}
 
 .sub_list_2 {
   display: none;
