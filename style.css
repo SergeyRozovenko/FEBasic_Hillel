@@ -31,25 +31,58 @@ html {
 }
 
 /*--------------------Навигация-----------------*/
-.list {
-  position: relative;
+
+.list li  {
+list-style: none;
 }
+
 .roster {
   display: inline-block;
   background-color: #333333;
   color: aliceblue;
-  width: 100%;
-  max-width: 200px;
-  text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  min-width: 200px;
   text-align: center;
+  position: relative;
+  margin-right: -6px;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-.sub_list1 {
-  position: absolute;
-  top: 60px;
-  left: 100px;
-  background-color: aqua;
+.roster:hover {
+  background:aqua ;
   color: black;
+}
+
+.roster:hover > .sub_list {
+  display: block;
+  background:aqua ;
+  color: black;
+}
+
+.sub_list {
+  display: none;
+  position: absolute;
+  top: 65px; 
+  left: 0;
+  width: 240px;
+}
+ .sub_roster,
+ .sub_roster_2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+.sub_roster:hover > .sub_list_2 {
+  display: block;
+  background:aqua ;
+  color: black;
+  }
+
+.sub_list_2 {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 80px;
+  width: 200px;
 }
