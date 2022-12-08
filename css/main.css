@@ -13,16 +13,17 @@ img {
 }
 
 html {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #333333;
+  color: #000000;
+  background-color: #e5e5e5;
 }
 
 .container {
   width: 100%;
-  max-width: calc(1110px + 2rem);
+  max-width: calc(1440px + 2rem);
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;

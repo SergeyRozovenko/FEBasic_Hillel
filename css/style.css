@@ -1,1 +1,8 @@
-
+.logo {
+}
+.navigation {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 39px;
+  padding-bottom: 36px;
+}
