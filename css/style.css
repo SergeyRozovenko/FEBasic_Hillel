@@ -1,0 +1,83 @@
+@import url(main_style.css);
+/* -------------------------------------header-------------------------------------------------------------------- */
+.logo_wrap {
+  padding: 27px 80px;
+}
+
+.nav {
+  gap: 32px;
+}
+
+.nav_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid var(--primary-color);
+}
+/* -------------------------------------first-section--------------------------------------------- */
+
+.section_wrap {
+  margin-top: 37px;
+  padding: 0 80px;
+}
+
+.section_title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.56px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.section_text {
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.text_wrap .section_text {
+  display: block;
+  margin-top: 35px;
+}
+
+.first_section .section_wrap .text_img {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.head_logo {
+  border-radius: 50%;
+}
+
+.section_wrap .text_wrap .button {
+  margin-top: 40px;
+}
+
+.btn_1 {
+  border-right: none;
+}
+
+.wrap_li {
+  transform: rotate(-4.93deg);
+  position: absolute;
+  width: 6000px;
+  top: 50%;
+}
+.li_link {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding-left: 60px;
+}
+
+.li_link::after {
+  content: url(../image/minitext_logo.png);
+  margin-left: 11px;
+}
+/* -------------------------------------second-section--------------------------------------------- */
