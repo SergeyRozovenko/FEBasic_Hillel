@@ -1,8 +1,19 @@
-.logo {
+.flex {
+  display: flex;
+  background-color: #ffffff;
 }
+
+.logo {
+  margin: 34px 51px 33px 51px;
+}
+
 .navigation {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 39px;
-  padding-bottom: 36px;
+  align-self: center;
+}
+.nav_link + .nav_link {
+  margin-left: 51px;
+}
+.button_header {
+  display: block;
+  justify-content: flex-end;
 }
