@@ -68,6 +68,7 @@ select {
 .btn_default {
   color: var(--primary-color);
   background-color: transparent;
+  border: 1px solid var(--primary-color);
 }
 
 .btn {
@@ -75,11 +76,9 @@ select {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  border: 1px solid var(--primary-color);
   text-align: center;
   min-width: 126px;
   padding: 8px 26px;
-  cursor: pointer;
   transition: all 0.3s linear;
 }
 
@@ -88,35 +87,13 @@ select {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
   text-align: center;
   padding: 13px 33px;
-  min-width: 179px;
-  cursor: pointer;
+  min-width: 144px;
   transition: all 0.3s linear;
 }
 
 .btn_1:hover {
   color: var(--white-color);
   background-color: var(--primary-color);
-}
-
-.btn_2:hover {
-  color: var(--white-color);
-  background-color: var(--primary-color);
-}
-
-.btn_2 {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  text-align: center;
-  padding: 13px 33px;
-  min-width: 144px;
-  cursor: pointer;
-  transition: all 0.3s linear;
 }
