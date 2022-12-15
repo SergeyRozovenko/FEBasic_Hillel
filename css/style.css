@@ -97,7 +97,7 @@
 /* -------------------------------------second-section--------------------------------------------- */
 
 .second_wrap {
-  padding-top: 150px;
+  padding-top: 130px;
   gap: 97px;
 }
 
@@ -107,4 +107,15 @@
 
 .second_text2 .second_title {
   margin-bottom: 36px;
+}
+
+.second_form {
+  margin-top: 27px;
+}
+
+.formtxt_title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--secondary-color);
 }
