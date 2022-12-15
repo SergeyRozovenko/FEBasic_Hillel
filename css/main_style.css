@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-clip: border-box;
 }
 
 a {
@@ -50,6 +51,11 @@ select {
   margin-right: auto;
 }
 
+.bg_black {
+  background-color: var(--primary-color);
+  color: var(--white-color) !important;
+}
+
 .flex {
   display: flex;
 }
@@ -60,6 +66,10 @@ select {
 
 .items_center {
   align-items: center;
+}
+
+.flex_col {
+  flex-direction: column;
 }
 
 .justify_content {
@@ -79,6 +89,7 @@ select {
 .pb190 {
   padding: 0 190px;
 }
+
 .btn {
   display: inline-block;
   font-weight: 400;
