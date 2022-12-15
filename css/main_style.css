@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -34,6 +35,10 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+.text_transform {
+  text-transform: uppercase;
 }
 
 .container {
@@ -71,6 +76,9 @@ select {
   border: 1px solid var(--primary-color);
 }
 
+.pb190 {
+  padding: 0 190px;
+}
 .btn {
   display: inline-block;
   font-weight: 400;

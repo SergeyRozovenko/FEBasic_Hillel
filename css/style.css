@@ -27,7 +27,14 @@
   line-height: 64px;
   letter-spacing: 0.56px;
   color: var(--primary-color);
-  text-transform: uppercase;
+}
+
+.second_title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  color: var(--primary-color);
 }
 
 .section_text {
@@ -36,7 +43,6 @@
   font-weight: 400;
   letter-spacing: 0.48px;
   color: var(--primary-color);
-  text-transform: uppercase;
 }
 
 .text_wrap .section_text {
@@ -85,7 +91,20 @@
 
 .text_li {
   overflow: hidden;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 /* -------------------------------------second-section--------------------------------------------- */
+
+.second_wrap {
+  padding-top: 150px;
+  gap: 97px;
+}
+
+.second_wrap .second_text {
+  max-width: 351px;
+}
+
+.second_text2 .second_title {
+  margin-bottom: 36px;
+}
