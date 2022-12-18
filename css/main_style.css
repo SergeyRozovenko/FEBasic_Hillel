@@ -123,8 +123,8 @@ select {
 
 .orange_btn {
   text-align: center;
-  min-width: 48px;
-  min-height: 48px;
+  width: 48px;
+  height: 48px;
   background-color: var(--secondary-color);
   color: var(--white-color);
   border: none;
