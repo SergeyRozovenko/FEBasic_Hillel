@@ -159,3 +159,12 @@
   margin-top: 9px;
   margin-bottom: 61px;
 }
+
+.content_wrap {
+  border: 2px solid #161513;
+  padding: 38px 34px;
+}
+
+.third_wrap2 {
+  gap: 24px;
+}
