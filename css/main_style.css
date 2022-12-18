@@ -72,6 +72,10 @@ select {
   flex-direction: column;
 }
 
+.flex_basis {
+  flex-basis: 0;
+}
+
 .justify_content {
   justify-content: center;
 }
@@ -115,4 +119,13 @@ select {
 .btn_1:hover {
   color: var(--white-color);
   background-color: var(--primary-color);
+}
+
+.orange_btn {
+  text-align: center;
+  min-width: 48px;
+  min-height: 48px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border: none;
 }

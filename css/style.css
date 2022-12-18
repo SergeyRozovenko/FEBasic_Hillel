@@ -168,3 +168,7 @@
 .third_wrap2 {
   gap: 24px;
 }
+
+.wraptxt {
+  max-width: 364px;
+}
