@@ -41,7 +41,6 @@
   font-weight: 400;
   font-size: 45px;
   line-height: 56px;
-  text-align: center;
   letter-spacing: 1.44px;
   color: var(--primary-color);
 }
@@ -171,4 +170,31 @@
 
 .wraptxt {
   gap: 24px;
+}
+
+/* -------------------------------------four-section--------------------------------------------- */
+
+.wrap_card {
+  gap: 44px;
+}
+.card_img {
+  max-width: 460px;
+}
+
+.orange_title {
+  display: block;
+  max-width: 181px;
+  padding: 5px 12px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  letter-spacing: 1.44px;
+  margin-bottom: 35px;
+}
+
+.link {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 49px;
 }
