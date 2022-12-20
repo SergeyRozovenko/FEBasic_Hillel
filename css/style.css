@@ -177,18 +177,29 @@
 .wrap_card {
   gap: 44px;
 }
+
+.wrap_card + .wrap_card {
+  margin-top: 95px;
+}
+
+.wrap_card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 .card_img {
   max-width: 460px;
 }
 
 .orange_title {
   display: block;
-  max-width: 181px;
-  padding: 5px 12px;
+  max-width: 200px;
+  text-align: center;
+  padding: 5px 10px;
   background-color: var(--secondary-color);
   color: var(--white-color);
   letter-spacing: 1.44px;
   margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 .link {
