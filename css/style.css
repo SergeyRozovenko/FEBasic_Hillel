@@ -209,3 +209,18 @@
   line-height: 32px;
   margin-top: 49px;
 }
+/* -------------------------------------five-section--------------------------------------------- */
+
+.service_wrap {
+  gap: 40px;
+}
+.service_card {
+  max-width: 510px;
+  border: 2px solid #161513;
+  padding: 34px 30px;
+}
+
+.service_text {
+  display: block;
+  margin-top: 28px;
+}
