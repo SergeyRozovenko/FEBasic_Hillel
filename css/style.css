@@ -285,9 +285,9 @@
   padding: 11px 0px;
   transition: all 0.3s linear;
 }
-/* -------------------------------------footer--------------------------------------------- */
-.footer {
-  margin-top: 134px;
+/* -------------------------------------email_section--------------------------------------------- */
+.email_section {
+  margin-top: 136px;
   background-color: var(--gray-color);
 }
 
