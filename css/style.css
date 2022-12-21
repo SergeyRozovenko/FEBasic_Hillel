@@ -304,3 +304,21 @@
 height: 56px;
 border: 2px solid #161513;
 }
+
+/* -------------------------------------email_section--------------------------------------------- */
+
+.footer {
+  background-color: var(--primary-color);
+  padding-top: 70px;
+}
+
+.nav_footer {
+  gap: 46px;
+}
+
+.footer_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+ color: var(--white-color);
+}
