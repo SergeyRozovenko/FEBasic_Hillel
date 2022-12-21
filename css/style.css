@@ -197,8 +197,6 @@
   background-color: var(--secondary-color);
   color: var(--white-color);
   letter-spacing: 1.44px;
-  margin-bottom: 35px;
-  margin-top: 20px;
 }
 
 .link {
@@ -206,8 +204,10 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin-top: 49px;
+  margin-top: 10px;
+  
 }
+
 /* -------------------------------------five-section--------------------------------------------- */
 
 .service_wrap {
