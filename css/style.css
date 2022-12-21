@@ -251,7 +251,7 @@
   height: 240px;
   position: absolute;
   left: 90%;
-  bottom: -10%;
+  bottom: 10%;
 }
 
 .article_wrap {
@@ -287,4 +287,14 @@
   margin-top: 94px;
   padding: 11px 0px;
   transition: all 0.3s linear;
+}
+/* -------------------------------------footer--------------------------------------------- */
+.footer {
+  margin-top: 134px;
+  background-color: var(--gray-color);
+}
+
+.level_up {
+  padding: 72px 190px;
+  
 }
