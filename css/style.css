@@ -154,7 +154,7 @@
 .text {
   letter-spacing: 1.44px;
   color: var(--primary-color);
-  margin-top: 9px;
+  margin-top: 13px;
   margin-bottom: 61px;
 }
 
@@ -246,11 +246,18 @@
 
 /* -------------------------------------seven-section--------------------------------------------- */
 
+.article_wrap {
+  gap: 100px;
+}
+.article_wrap .exp_text {
+  color: var(--secondary-color);
+}
 .article_card {
   width: 100%;
   border: 2px solid #000000;
   padding-left: 34px;
   padding-right: 53px;
+  padding-bottom: 10px;
 }
 
 .article_text {
@@ -258,4 +265,12 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--primary-color);
+}
+
+.article_title {
+  max-width: 464px;
+}
+
+.article_text_wrap {
+  width: 457px;
 }
