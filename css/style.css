@@ -296,5 +296,14 @@
 
 .level_up {
   padding: 72px 190px;
-  
+}
+
+.input_wrapper  {
+  gap: 24px;
+}
+
+.input_Email {
+  width: 354px;
+height: 56px;
+border: 2px solid #161513;
 }

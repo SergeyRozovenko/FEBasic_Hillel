@@ -134,3 +134,20 @@ select {
   color: var(--white-color);
   border: none;
 }
+
+.btn_2 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  text-align: center;
+  padding: 10px 13px;
+  min-width: 140px;
+  transition: all 0.3s linear;
+}
+
+.btn_2:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
