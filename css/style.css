@@ -245,6 +245,15 @@
 }
 
 /* -------------------------------------seven-section--------------------------------------------- */
+.seven_section {
+  position: relative;
+}
+.section_img {
+  height: 240px;
+  position: absolute;
+  left: 85%;
+  bottom: -10%;
+}
 
 .article_wrap {
   gap: 100px;
