@@ -121,11 +121,15 @@ select {
   background-color: var(--primary-color);
 }
 
+.big_btn:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
 .orange_btn {
   width: 48px;
   height: 48px;
   background-color: var(--secondary-color);
   color: var(--white-color);
   border: none;
-
 }

@@ -204,7 +204,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin-top: 10px;
   
 }
 
@@ -281,5 +280,11 @@
 }
 
 .article_text_wrap {
-  width: 457px;
+  max-width: 457px;
+}
+
+.big_btn  {
+  margin-top: 94px;
+  padding: 11px 0px;
+  transition: all 0.3s linear;
 }
