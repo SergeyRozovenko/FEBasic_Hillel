@@ -247,7 +247,7 @@
 .section_img {
   height: 240px;
   position: absolute;
-  left: 90%;
+  left: 100%;
   bottom: 10%;
 }
 
@@ -280,12 +280,16 @@
   max-width: 457px;
 }
 
-.big_btn  {
+.big_btn {
   margin-top: 94px;
   padding: 11px 0px;
   transition: all 0.3s linear;
 }
-/* -------------------------------------email_section--------------------------------------------- */
+/* -------------------------------------footer_section--------------------------------------------- */
+.footer {
+  background-color: var(--primary-color);
+}
+
 .email_section {
   margin-top: 136px;
   background-color: var(--gray-color);
@@ -295,20 +299,15 @@
   padding: 72px 190px;
 }
 
-.input_wrapper  {
+.input_wrapper {
   gap: 24px;
 }
 
 .input_Email {
   width: 354px;
-height: 56px;
-border: 2px solid #161513;
-}
-
-/* -------------------------------------email_section--------------------------------------------- */
-
-.footer {
-  background-color: var(--primary-color);
+  height: 56px;
+  border: 2px solid #161513;
+  padding: 12px 22px;
 }
 
 .nav_footer {
@@ -321,20 +320,21 @@ border: 2px solid #161513;
 
 .level_down {
   margin-top: 59px;
+  padding-bottom: 26px;
 }
 
 .footer_link {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
- color: var(--white-color);
+  color: var(--white-color);
 }
 
 .copyright_txt {
   font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #F2F1EF;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f2f1ef;
 }
 
 .social {
