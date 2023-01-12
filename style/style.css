@@ -4,10 +4,6 @@
   gap: var(--container-space);
 }
 
-/* .card {
-  width: 315px;
-} */
-
 .team_img {
   height: 300px;
   border-radius: 12px;
@@ -32,10 +28,6 @@
   padding-bottom: 5px;
 }
 
-/* .name:hover {
-  color: var(--accent-color);
-} */
-
 .position {
   font-size: 14px;
   line-height: 22px;
@@ -46,10 +38,6 @@
   border: none;
   padding-top: 15px;
 }
-
-/* .row:hover svg path.letter {
-  stroke: var(--accent-color);
-} */
 
 .row:hover {
   transform: rotate(-90deg);
