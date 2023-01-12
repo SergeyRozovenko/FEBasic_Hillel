@@ -10,9 +10,16 @@
   .team_img {
     height: 400px;
   }
+  .name:hover {
+    color: var(--accent-color);
+  }
 
-  .card {
-    width: 294px;
+  .row:hover svg path.letter {
+    stroke: var(--accent-color);
+  }
+
+  .row:hover {
+    transform: none;
   }
 }
 
@@ -20,13 +27,7 @@
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
-  .card {
-    width: 261px;
-  }
 }
 
 @media (min-width: 1920px) {
-  .card {
-    width: 493px;
-  }
 }
