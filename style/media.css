@@ -1,0 +1,32 @@
+@media (min-width: 767px) {
+  :root {
+    --container-space: 60px;
+  }
+
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team_img {
+    height: 400px;
+  }
+
+  .card {
+    width: 294px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card {
+    width: 261px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .card {
+    width: 493px;
+  }
+}

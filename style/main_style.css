@@ -1,4 +1,17 @@
 :root {
+  --main-color: #323264;
+  --accent-color: #f0145a;
+  --hero-color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  --regular-color: #24a3ff;
+  --hover-color: #0085ff;
+  --active-color: #006ccf;
+  --bg-color: #f5f5fa;
+  --bgAlt-color: #ededf7;
+  --text-color: #b3b3ba;
+  --separation-color: #e6e6f0;
+  --container-width: 1360px;
+  --container-wide-width: 1600px;
+  --container-space: 30px;
 }
 
 * {
@@ -18,11 +31,11 @@ img {
 }
 
 html {
-  font-size: 18px;
-  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  line-height: 1.7;
-  color: #333333;
+  line-height: 1.25;
+  color: var(--main-color);
 }
 
 button,
@@ -34,11 +47,19 @@ select {
 
 .container {
   width: 100%;
-  max-width: calc(1440px + 2rem);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: calc(var(--container-width) + var(--container-space) * 2);
+  padding-left: var(--container-space);
+  padding-right: var(--container-space);
   margin-left: auto;
   margin-right: auto;
+}
+
+.container.wide {
+  max-width: calc(var(--container-wide-width) + var(--container-space) * 2);
+}
+
+.grid {
+  display: grid;
 }
 
 .flex {

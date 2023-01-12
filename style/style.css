@@ -1,0 +1,46 @@
+/*******************************main_content***********************/
+.wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--container-space);
+}
+
+.team_img {
+  height: 300px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.hero {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: var(--container-space);
+  margin-bottom: var(--container-space);
+}
+
+.name {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.position {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text-color);
+}
+
+.card {
+  width: 315px;
+}
+
+.row {
+  border: none;
+}
+
+.row:hover {
+  transform: rotate(-90deg);
+}
