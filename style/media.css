@@ -20,7 +20,13 @@
     color: var(--main-color);
   }
 
+  .check,
+  .burger {
+    display: none;
+  }
+
   .header {
+    display: grid;
     grid-template-areas: "info" "logo" "navigation";
     padding-top: 50px;
   }
@@ -42,6 +48,11 @@
   .nav_link:active {
     border-bottom: 2px solid var(--accent-color);
   }
+
+  .contact_page:hover svg path.letter {
+    fill: var(--accent-color);
+  }
+
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }

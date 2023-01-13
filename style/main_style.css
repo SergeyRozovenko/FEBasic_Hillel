@@ -1,6 +1,7 @@
 :root {
   --main-color: #323264;
   --accent-color: #f0145a;
+  --burger-color: #ec6f5d;
   --hero-color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   --regular-color: #24a3ff;
   --hover-color: #0085ff;
@@ -55,6 +56,7 @@ select {
   padding-right: var(--container-space);
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .container.wide {

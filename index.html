@@ -15,7 +15,7 @@
 <body>
     <header class="main_header">
         <div class="container wide">
-            <div class="header grid">
+            <div class="header">
                 <div class="logo">
                     <img src="./img/Logo.png" alt="Logo" class="logo_img">
                     <img src="./img/Slash.png" alt="Slash" class="logo_slash">
@@ -35,7 +35,7 @@
                                 <a href="https://facebook.com" class="contact_page">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path
+                                        <path class="letter"
                                             d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
                                             fill="#B3B3BA" />
                                     </svg>
@@ -45,12 +45,21 @@
                     </div>
                 </div>
                 <div class="navigation">
+                    <input type="checkbox" class="check">
+                    <p class="burger">
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                    </p>
                     <nav class="nav">
-                        <a href="#" class="nav_link">about us</a>
-                        <a href="#" class="nav_link">services</a>
-                        <a href="#" class="nav_link">team</a>
-                        <a href="#" class="nav_link">publications</a>
-                        <a href="#" class="nav_link">contact</a>
+                        <ul class="burger_list">
+                            <li class="burger_info"><a href="#" class="nav_link">about us</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">services</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">team</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">publications</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">contact</a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>
