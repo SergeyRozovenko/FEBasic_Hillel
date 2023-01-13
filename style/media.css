@@ -2,6 +2,14 @@
   :root {
     --container-space: 60px;
   }
+  .logo {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  .header {
+    grid-template-areas: "info" "logo" "navigation";
+    padding-top: 50px;
+  }
 
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -26,6 +34,19 @@
 @media (min-width: 1024px) {
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .logo {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .header {
+    grid-template-areas: "logo info" "logo navigation";
+  }
+
+  .info,
+  .navigation {
+    justify-self: end;
   }
 }
 

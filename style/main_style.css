@@ -58,6 +58,10 @@ select {
   max-width: calc(var(--container-wide-width) + var(--container-space) * 2);
 }
 
+.bg_gray {
+  background-color: var(--bg-color);
+}
+
 .grid {
   display: grid;
 }
@@ -88,4 +92,16 @@ select {
 
 .flex_wrap {
   flex-wrap: wrap;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.info {
+  grid-area: info;
+}
+
+.navigation {
+  grid-area: navigation;
 }
