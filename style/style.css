@@ -3,16 +3,27 @@
   grid-template-areas: "logo info" "logo nav";
 } */
 
-.logo {
-  grid-area: logo;
+/* .logo_slash,
+.logo_name {
+  display: inline-block;
+  vertical-align: top;
+} */
+
+.logo_name {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--main-color);
 }
 
-.info {
-  grid-area: info;
+.nav_link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--regular-color);
 }
 
-.navigation {
-  grid-area: navigation;
+.nav_link:active {
+  color: var(--accent-color);
 }
 
 /*******************************main_content***********************/

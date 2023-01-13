@@ -2,15 +2,46 @@
   :root {
     --container-space: 60px;
   }
+
   .logo {
     margin-top: 35px;
     margin-bottom: 30px;
   }
+
+  .logo_slash,
+  .logo_name {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .logo_name {
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--main-color);
+  }
+
   .header {
     grid-template-areas: "info" "logo" "navigation";
     padding-top: 50px;
   }
 
+  .nav_link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .nav_link + .nav_link {
+    margin-left: 15px;
+  }
+
+  .nav_link:hover {
+    border-bottom: 2px solid var(--regular-color);
+  }
+
+  .nav_link:active {
+    border-bottom: 2px solid var(--accent-color);
+  }
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -35,6 +66,7 @@
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .logo {
     margin-top: 0;
     margin-bottom: 0;
