@@ -34,6 +34,9 @@
     gap: 6px;
   }
 
+  .contact_info.b_contact {
+    font-weight: 400;
+  }
   .b_contact {
     display: block;
   }
