@@ -311,3 +311,7 @@
 .copyright {
   color: var(--text-color);
 }
+
+.footer ~ .dot {
+  background-color: var(--text-color);
+}

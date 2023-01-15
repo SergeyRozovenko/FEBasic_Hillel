@@ -17,6 +17,12 @@
   .dot {
     display: block;
   }
+
+  .f_adress_main .dot,
+  .footer_link .dot {
+    background-color: var(--text-color);
+  }
+
   .info_header {
     background-color: #fff;
     padding-top: 0px;
@@ -37,6 +43,7 @@
   .contact_info.b_contact {
     font-weight: 400;
   }
+
   .b_contact {
     display: block;
   }
