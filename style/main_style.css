@@ -1,5 +1,6 @@
 :root {
   --main-color: #323264;
+  --alt-color: #46466e;
   --accent-color: #f0145a;
   --burger-color: #ec6f5d;
   --hero-color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
@@ -61,6 +62,10 @@ select {
 
 .container.wide {
   max-width: calc(var(--container-wide-width) + var(--container-space) * 2);
+}
+
+.contact_page:hover svg path.letter {
+  fill: var(--accent-color);
 }
 
 .bg_gray {

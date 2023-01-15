@@ -262,3 +262,48 @@
 .row:hover {
   transform: rotate(-90deg);
 }
+
+/*****************************Footer*************************************/
+
+.footer {
+  padding-top: var(--container-space);
+  padding-bottom: var(--container-space);
+  flex-direction: column;
+  align-items: center;
+}
+
+.f_adress_main,
+.footer_link {
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f_contact_two {
+  margin-top: 21px;
+  margin-bottom: 30px;
+}
+.map {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: var(--regular-color);
+}
+
+.f_link.f_style {
+  font-weight: 700;
+  color: var(--alt-color);
+}
+
+.email_page {
+  font-weight: 700;
+  color: var(--regular-color);
+}
+
+.email_page:hover {
+  color: var(--accent-color);
+}
+.copyright {
+  color: var(--text-color);
+}

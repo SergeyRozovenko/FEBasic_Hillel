@@ -106,10 +106,6 @@
     border-bottom: 2px solid var(--accent-color);
   }
 
-  .contact_page:hover svg path.letter {
-    fill: var(--accent-color);
-  }
-
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -127,6 +123,22 @@
 
   .row:hover {
     transform: none;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-areas: "f_contact_main" "f_contact_two";
+    justify-content: center;
+  }
+
+  .f_adress_main,
+  .footer_link {
+    flex-direction: row;
+    justify-self: flex-start;
+  }
+
+  .copyright {
+    margin: 0 auto;
   }
 }
 
@@ -152,7 +164,13 @@
   .navigation {
     justify-self: end;
   }
-}
 
-@media (min-width: 1920px) {
+  .footer {
+    grid-template-areas: "f_contact_main copy" "f_contact_two f_contact_two";
+    justify-content: space-between;
+  }
+
+  .copy {
+    grid-area: copy;
+  }
 }
