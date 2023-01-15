@@ -264,6 +264,9 @@
 }
 
 /*****************************Footer*************************************/
+.main_footer {
+  margin-top: 60px;
+}
 
 .footer {
   padding-top: var(--container-space);
