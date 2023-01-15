@@ -6,6 +6,36 @@
   .logo {
     margin-top: 35px;
     margin-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .logo_img,
+  .logo_slash {
+    width: inherit;
+  }
+  .dot {
+    display: block;
+  }
+  .info_header {
+    background-color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    gap: 6px;
+  }
+  .contact {
+    align-items: center;
+    gap: 6px;
+  }
+
+  .b_contact {
+    display: block;
   }
 
   .logo_slash,
@@ -29,8 +59,30 @@
     display: grid;
     grid-template-areas: "info" "logo" "navigation";
     padding-top: 50px;
+    align-items: flex-end;
   }
 
+  .nav {
+    display: block;
+    position: initial;
+    background-color: inherit;
+    padding: 0;
+  }
+
+  .nav .burger_list {
+    padding: 0;
+    padding-top: 0;
+    transform: none;
+    border-radius: 0;
+    flex-direction: row;
+  }
+
+  .burger_info {
+    background-color: inherit;
+    border-radius: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .nav_link {
     font-weight: 700;
     font-size: 16px;
@@ -43,9 +95,14 @@
 
   .nav_link:hover {
     border-bottom: 2px solid var(--regular-color);
+    background-color: #fff;
   }
 
   .nav_link:active {
+    border-bottom: 2px solid var(--accent-color);
+  }
+
+  .nav_link.active_link {
     border-bottom: 2px solid var(--accent-color);
   }
 
@@ -85,6 +142,10 @@
 
   .header {
     grid-template-areas: "logo info" "logo navigation";
+  }
+
+  .info_header {
+    align-items: center;
   }
 
   .info,
