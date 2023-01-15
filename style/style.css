@@ -304,6 +304,7 @@
 .email_page:hover {
   color: var(--accent-color);
 }
+
 .copyright {
   color: var(--text-color);
 }

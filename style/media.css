@@ -129,6 +129,8 @@
     display: grid;
     grid-template-areas: "f_contact_main" "f_contact_two";
     justify-content: center;
+    padding-top: calc(var(--container-space) / 2);
+    padding-bottom: calc(var(--container-space) / 2);
   }
 
   .f_adress_main,
@@ -169,7 +171,9 @@
     grid-template-areas: "f_contact_main copy" "f_contact_two f_contact_two";
     justify-content: space-between;
   }
-
+  .f_contact_two {
+    margin-bottom: 0;
+  }
   .copy {
     grid-area: copy;
   }
