@@ -5,19 +5,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork_</title>
-    <link rel="stylesheet" href="style.css">
+    <title>HomeWork_14</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/main_style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="main_header">
+        <div class="container wide">
+            <div class="header">
+                <div class="logo">
+                    <img src="./img/Logo.png" alt="Logo" class="logo_img">
+                    <img src="./img/Slash.png" alt="Slash" class="logo_slash">
+                    <p class="logo_name">team</p>
+                </div>
+                <div class="info">
+                    <div class="info_header flex">
+                        <ul class="lang flex">
+                            <li class="lang_action">УК</li>
+                            <li class="lang_action">РУ</li>
+                            <li class="lang_action active_lang">EN</li>
+                        </ul>
+                        <p class="dot"></p>
+                        <ul class="contact flex">
+                            <li class="contact_info b_contact">Kyiv, Mechnikova str., 14/1</li>
+                            <li class="contact_info">
+                                <p class="dot"></p>
+                            </li>
+                            <li class="contact_info">0800 211 927</li>
+                            <li class="contact_info">
+                                <p class="dot"></p>
+                            </li>
+                            <li class="contact_info b_contact">
+                                <a href="https://facebook.com" class="contact_page" target="_blank">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="letter"
+                                            d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
+                                            fill="#B3B3BA" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <input type="checkbox" class="check">
+                    <p class="burger">
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                        <span class="burger_line"></span>
+                    </p>
+                    <nav class="nav">
+                        <ul class="burger_list">
+                            <li class="burger_info"><a href="#" class="nav_link">about us</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">services</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link active_link">team</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">publications</a></li>
+                            <li class="burger_info"><a href="#" class="nav_link">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
-        <section class="container">
-            <h1></h1>
+        <div class="container">
+            <h1 class="hero">We are used to taking responsibility and always guarantee honest, timely assistance, even
+                in situations where most are powerless.</h1>
+        </div>
+        <section class="container wide">
+            <div class="wrapper grid">
+                <div class="card">
+                    <img src="./img/team_user/Team-1.jpg" alt="Alexander" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Alexander Alexandrovskiy</h4>
+                            <p class="position">Managing partner</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/team_user/Team-2.jpg" alt="Evgeny" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Evgeny Patrikov</h4>
+                            <p class="position">Equity partner, Attorney-at-law</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/team_user/Team-3.jpg" alt="Vladislav" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Vladislav Melnik</h4>
+                            <p class="position">Associate</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/team_user/Team-4.jpg" alt="Sergey" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Sergey Binn</h4>
+                            <p class="position">Associate</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/team_user/Team-5.jpg" alt="Oksana" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Oksana Kobzar</h4>
+                            <p class="position">Equity partner, Attorney-at-law</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/team_user/Team-6.jpg" alt="Julia" class="team_img">
+                    <div class="card_txt flex flex_between">
+                        <div class="description">
+                            <h4 class="name">Julia Wolk</h4>
+                            <p class="position">Associate, Attorney-at-law</p>
+                        </div>
+                        <a href="#" class="row"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#F5F5FA" />
+                                <path class="letter" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF"
+                                    stroke-width="2" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="main_footer bg_gray">
+        <div class="container wide">
+            <div class="footer flex">
+                <div class="f_contact_main flex">
+                    <ul class="f_adress_main flex">
+                        <li class="adress_link">Kyiv, Mechnikova str., 14/1</li>
+                        <li class="adress_link">
+                            <p class="dot"></p>
+                        </li>
+                        <li class="adress_link"><a
+                                href="https://www.google.com.ua/maps/place/Pyam'yatnyk+Zhertvam+Teroryzmu,+%D0%9F%D0%BE%D0%B1%D0%BB%D0%B8%D0%B7%D1%83+%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97+%D0%BC%D0%B5%D1%82%D1%80%D0%BE+%D0%9A%D0%BB%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9C%D0%B5%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0,+14%2F1,+%D0%9A%D0%B8%D1%97%D0%B2,+01023/@50.4368601,30.529918,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf00d4d55dad:0x40f274cb5d991e55!8m2!3d50.4368601!4d30.5321067?hl=ru"
+                                class="map" target="_blank">ON MAP</a></li>
+                    </ul>
+                </div>
+                <div class="f_contact_two flex">
+                    <ul class="footer_link flex">
+                        <li class="f_link"><a href="https://facebook.com" class="contact_page" target="_blank">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="letter"
+                                        d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                        fill="#24A3FF" />
+                                </svg>
+                            </a></li>
+                        <li class="f_link">
+                            <p class="dot"></p>
+                        </li>
+                        <li class="f_link f_style">0800 211 927</li>
+                        <li class="f_link">
+                            <p class="dot"></p>
+                        </li>
+                        <li class="f_link">
+                            <a href="mailto:contact@forstudy.space" class="email_page">
+                                contact@forstudy.space
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <p class="copyright">© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
