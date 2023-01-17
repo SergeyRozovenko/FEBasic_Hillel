@@ -219,53 +219,49 @@
   opacity: 0;
 }
 /*******************************main_content***********************/
+.border {
+  width: 315px;
+  height: 4px;
+  background-color: var(--separation-color);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .wrapper {
-  grid-template-columns: repeat(1, 1fr);
-  gap: var(--container-space);
-}
-
-.team_img {
-  height: 300px;
-  border-radius: 12px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.hero {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 37px;
-  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
   margin-top: var(--container-space);
   margin-bottom: var(--container-space);
 }
-
-.name {
-  padding-top: 15px;
-  padding-bottom: 5px;
+.wrapper_tel {
+  gap: 15px;
 }
 
-.position {
-  font-size: 14px;
-  line-height: 22px;
-  color: var(--text-color);
+.wrapper_link {
+  gap: 10px;
 }
 
-.row {
-  border: none;
-  padding-top: 15px;
+.wrap_link_f {
+  width: 105px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--regular-color);
 }
 
-.row:hover {
-  transform: rotate(-90deg);
+.adress,
+.wrap_tel_link {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.wrap_tel_link .wrap_email {
+  color: var(--regular-color);
 }
 
 /*****************************Footer*************************************/
 .main_footer {
-  margin-top: 60px;
+  margin-top: var(--container-space);
 }
 
 .footer {

@@ -116,30 +116,6 @@
     border-bottom: 2px solid var(--accent-color);
   }
 
-  .wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero {
-    font-size: 38px;
-    line-height: 46px;
-  }
-
-  .team_img {
-    height: 400px;
-  }
-  .name:hover {
-    color: var(--accent-color);
-  }
-
-  .row:hover svg path.letter {
-    stroke: var(--accent-color);
-  }
-
-  .row:hover {
-    transform: none;
-  }
-
   .footer {
     display: grid;
     grid-template-areas: "f_contact_main" "f_contact_two";
@@ -160,10 +136,6 @@
 }
 
 @media (min-width: 1024px) {
-  .wrapper {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .logo {
     margin-top: 0;
     margin-bottom: 0;
