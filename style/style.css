@@ -220,7 +220,7 @@
 }
 /*******************************main_content***********************/
 .border {
-  width: 315px;
+  width: 100%;
   height: 4px;
   background-color: var(--separation-color);
   margin-top: 30px;
@@ -259,6 +259,31 @@
   color: var(--regular-color);
 }
 
+.input_size {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+}
+
+.form_feedback {
+  width: 100%;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.form_Name {
+  border: none;
+  border-radius: 8px;
+}
+
+.form_Message {
+  width: 100%;
+  height: 130px;
+  border: none;
+  resize: none;
+}
 /*****************************Footer*************************************/
 .main_footer {
   margin-top: var(--container-space);
