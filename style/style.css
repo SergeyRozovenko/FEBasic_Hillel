@@ -259,6 +259,17 @@
   color: var(--regular-color);
 }
 
+.hero {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+}
+
 .input_size {
   width: 100%;
   height: 56px;
