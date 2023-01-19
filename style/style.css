@@ -343,6 +343,10 @@ textarea:focus {
   border: 1px solid var(--regular-color);
 }
 
+input:invalid {
+  border-color: #f0145a;
+}
+
 /*****************************Footer*************************************/
 .main_footer {
   margin-top: var(--container-space);
