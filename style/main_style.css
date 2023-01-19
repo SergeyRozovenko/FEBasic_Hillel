@@ -21,6 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   background-clip: border-box;
+  border: 1px solid black;
 }
 
 a {
@@ -95,6 +96,9 @@ select {
   flex-direction: column;
 }
 
+.flex_row {
+  flex-direction: row;
+}
 .flex_basis {
   flex-basis: 0;
 }

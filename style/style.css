@@ -236,17 +236,21 @@
   gap: 15px;
 }
 
-.wrapper_link {
+.contact_page {
   gap: 10px;
 }
 
 .wrap_link_f {
-  width: 105px;
+  cursor: pointer;
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
   color: var(--regular-color);
+}
+
+.wrap_link_f:hover {
+  color: var(--accent-color);
 }
 
 .adress,
