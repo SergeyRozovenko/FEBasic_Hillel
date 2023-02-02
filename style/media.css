@@ -10,6 +10,11 @@
     padding-bottom: 0;
   }
 
+  .h_screen {
+    min-height: 100vh;
+    aspect-ratio: initial;
+  }
+
   .logo_img,
   .logo_slash {
     width: inherit;
@@ -162,6 +167,10 @@
   .logo {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .h_screen {
+    background-size: contain;
   }
 
   .header {
