@@ -1,0 +1,130 @@
+@import url(./header.css);
+@import url(./footer.css);
+/*******************************main_content***********************/
+.border {
+  width: 100%;
+  height: 4px;
+  background-color: var(--separation-color);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wrapper_main {
+  margin-top: var(--container-space);
+  margin-bottom: var(--container-space);
+  gap: var(--container-space);
+}
+.wrapper_tel {
+  gap: 15px;
+}
+
+.contact_page {
+  gap: 10px;
+}
+
+.contact_page:hover .wrap_link_f {
+  color: var(--accent-color);
+}
+
+.wrap_link_f {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--regular-color);
+}
+
+.adress,
+.wrap_tel_link {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.wrap_tel_link .wrap_email {
+  color: var(--regular-color);
+}
+
+.hero_Form {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+}
+
+.input_Size {
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+}
+
+.form_feedback {
+  width: 100%;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.form_Message {
+  width: 100%;
+  height: 130px;
+  border: none;
+  resize: none;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  line-height: 26px;
+  color: var(--text-color);
+}
+
+.phone_L {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.form_Phone {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form_Submit {
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  background-color: var(--regular-color);
+  border: none;
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: 700;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+}
+
+.form_Submit:hover {
+  background-color: var(--hover-color);
+  transition: all 0.2s linear;
+}
+
+.form_Submit:active {
+  background-color: var(--active-color);
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid var(--regular-color);
+}
+
+input:invalid {
+  border-color: #f0145a;
+}
