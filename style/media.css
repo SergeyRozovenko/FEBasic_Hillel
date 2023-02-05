@@ -118,16 +118,16 @@
     background-color: #fff;
   }
 
-  .nav_link.white:hover {
-    background: linear-gradient(
-      228.57deg,
-      #323264 11.93%,
-      #323264 57.17%,
-      #643e72 87.46%
-    );
+  .burger_info:hover {
+    background-color: transparent;
   }
 
-  .nav_link:active {
+  .nav_link.white:hover {
+    border-bottom: 2px solid var(--white-color);
+    background-color: transparent;
+  }
+
+  .burger_info .nav_link:active {
     border-bottom: 2px solid var(--accent-color);
   }
 
@@ -158,6 +158,7 @@
   .row:hover {
     transform: none;
   }
+
   .footer {
     display: grid;
     grid-template-areas: "f_contact_main" "f_contact_two";

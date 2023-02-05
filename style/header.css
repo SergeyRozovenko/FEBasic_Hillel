@@ -65,10 +65,22 @@
   cursor: pointer;
 }
 
+.lang_action.bg_home:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact_info.bg_home {
+  color: var(--white-color);
+}
+
 .lang_action.active_lang {
   background-color: var(--accent-color);
   color: #fff;
   border-radius: 8px;
+}
+
+.lang_action.bg_home {
+  color: var(--white-color);
 }
 
 .lang_action:active {
