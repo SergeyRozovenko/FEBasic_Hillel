@@ -90,9 +90,6 @@ select {
   fill: var(--accent-color);
 }
 
-.white {
-  background-color: var(--white-color) !important;
-}
 .pb15 {
   padding: 15px 0 15px 15px;
 }

@@ -21,6 +21,10 @@ body.invert .header {
   background: url(../img/Symbol.png) no-repeat center/cover;
 }
 
+.info_header {
+  background-color: rgba(245, 245, 250, 0.2);
+  color: var(--white-color) !important;
+}
 .burger .burger_line {
   background-color: var(--white-color);
 }

@@ -105,6 +105,10 @@
     line-height: 20px;
   }
 
+  .white {
+    color: var(--white-color);
+  }
+
   .nav_link + .nav_link {
     margin-left: 15px;
   }
@@ -112,6 +116,15 @@
   .nav_link:hover {
     border-bottom: 2px solid var(--regular-color);
     background-color: #fff;
+  }
+
+  .nav_link.white:hover {
+    background: linear-gradient(
+      228.57deg,
+      #323264 11.93%,
+      #323264 57.17%,
+      #643e72 87.46%
+    );
   }
 
   .nav_link:active {
