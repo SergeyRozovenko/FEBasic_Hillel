@@ -1,9 +1,10 @@
 @import url(./header.css);
 @import url(./footer.css);
 
-body.invert .header {
+body.invert .main_header {
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 .wrapper_gradient {
