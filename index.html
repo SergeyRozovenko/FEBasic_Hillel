@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="./style/home_page.css">
     <link rel="stylesheet" href="./style/main_style.css">
     <link rel="stylesheet" href="./style/media.css">
+    <script>
+        function scrollToElem(elem) {
+          event.preventDefault()
+          const target = document.querySelector(elem.hash)
+          window.scrollTo({
+            top: target.offsetTop,
+            behavior: "smooth"
+          })
+        }
+      </script>
 </head>
 
 <body class="body invert">
@@ -80,7 +90,7 @@
         <section class="h_screen flex items_center flex_col flex_between">
             <span></span>
             <h2 class="h_screen_title">you legal solutions provider</h2>
-            <a href="#tabs" class="scroll_down">
+            <a href="#tabs" class="scroll_down" onclick="scrollToElem(this)">
                 <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_22728_12366)">
                         <circle class="letter" opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
@@ -93,10 +103,10 @@
                     </defs>
                 </svg></a>
         </section>
-        <section class="tabs_screen">
+        <section id="tabs" class="tabs_screen">
             <div class="container wide">
                 <div class="flex align-items-start">
-                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <div class="nav flex_col nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                       <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Consistent</button>
                       <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Customer oriented</button>
                       <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Innovative</button>
