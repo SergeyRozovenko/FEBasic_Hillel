@@ -215,18 +215,27 @@
   }
   .wrap_tabs {
     overflow-x: initial;
+    padding-bottom: initial;
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    border-bottom: initial;
   }
 
   .nav-link {
     text-align: end;
     font-size: 38px;
     line-height: 46px;
+    margin-right: initial;
   }
 
   .nav-pills {
     flex-direction: column;
   }
 
+  .tab-pane {
+    border-top: none;
+    padding-left: var(--container-space);
+    padding-top: initial;
+  }
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }

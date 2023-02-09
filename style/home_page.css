@@ -58,6 +58,8 @@ body.invert .main_header {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
   overflow-x: auto;
+  padding-bottom: var(--container-space);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.3);
 }
 
 .nav-pills {
@@ -87,6 +89,8 @@ body.invert .main_header {
   font-size: 19px;
   line-height: 30px;
   color: var(--white-color);
+
+  padding-top: var(--container-space);
 }
 
 .tab-pane.active {
