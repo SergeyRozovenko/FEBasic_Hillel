@@ -117,6 +117,10 @@ select {
   flex-direction: column;
 }
 
+.flex_end {
+  align-items: flex-end;
+}
+
 .flex_row {
   flex-direction: row;
 }

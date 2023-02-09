@@ -15,6 +15,9 @@
     aspect-ratio: initial;
   }
 
+  .h_screen_title {
+    width: 100%;
+  }
   .logo_img,
   .logo_slash {
     width: inherit;

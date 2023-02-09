@@ -22,6 +22,15 @@ body.invert .main_header {
   background: url(../img/Symbol.png) no-repeat center/cover;
 }
 
+.h_screen_title {
+  width: 315px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: var(--white-color);
+}
+
 .info_header {
   background-color: rgba(245, 245, 250, 0.2);
 }
