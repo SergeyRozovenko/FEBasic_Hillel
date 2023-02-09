@@ -215,6 +215,9 @@
     gap: var(--container-space);
   }
 
+  .nav-link:hover {
+    color: var(--accent-color)
+  }
   .footer {
     grid-template-areas: "f_contact_main copy" "f_contact_two f_contact_two";
     justify-content: space-between;

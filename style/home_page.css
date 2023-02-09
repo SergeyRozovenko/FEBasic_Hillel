@@ -44,8 +44,13 @@ body.invert .main_header {
   stroke: var(--accent-color);
 }
 
+
 .nav-link {
   background: none;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: var(--text-color);
 }
 
 .nav-link.active {
@@ -54,8 +59,13 @@ body.invert .main_header {
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+
 .tab-pane {
   display: none;
+  font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+color: var(--white-color);
 }
 .tab-pane.active {
   display: block;
