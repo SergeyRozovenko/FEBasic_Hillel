@@ -44,6 +44,10 @@ body.invert .main_header {
   stroke: var(--accent-color);
 }
 
+.nav-link {
+  background: none;
+}
+
 .nav-link.active {
   background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
 -webkit-background-clip: text;
