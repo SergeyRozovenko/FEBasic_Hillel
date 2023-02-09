@@ -164,7 +164,7 @@
   top: 22px;
 }
 
-.nav {
+.nav_header {
   display: none;
   padding: 8px;
   background-color: var(--main-color);
@@ -174,7 +174,7 @@
   transition: all 0.3s linear;
 }
 
-.nav .burger_list {
+.nav_header .burger_list {
   background-color: #fff;
   border-radius: 12px;
   display: flex;
@@ -204,12 +204,12 @@
   background-color: var(--burger-color);
 }
 
-.check:checked ~ .nav {
+.check:checked ~ .nav_header {
   display: flex;
   z-index: 1;
 }
 
-.check:checked ~ .nav .burger_list {
+.check:checked ~ .nav_header .burger_list {
   transform: translateY(0);
 }
 

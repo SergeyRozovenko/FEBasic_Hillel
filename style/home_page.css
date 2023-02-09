@@ -43,3 +43,16 @@ body.invert .main_header {
 .scroll_down:hover path.letter {
   stroke: var(--accent-color);
 }
+
+.nav-link.active {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}

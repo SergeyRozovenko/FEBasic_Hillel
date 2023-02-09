@@ -80,14 +80,14 @@
     align-items: flex-end;
   }
 
-  .nav {
+  .nav_header {
     display: block;
     position: initial;
     background-color: inherit;
     padding: 0;
   }
 
-  .nav .burger_list {
+  .nav_header .burger_list {
     background-color: transparent;
     padding: 0;
     padding-top: 0;
