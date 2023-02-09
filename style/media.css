@@ -227,6 +227,10 @@
     margin-right: initial;
   }
 
+  .nav-link + .nav-link {
+    margin-top: 30px;
+  }
+
   .nav-pills {
     flex-direction: column;
   }
