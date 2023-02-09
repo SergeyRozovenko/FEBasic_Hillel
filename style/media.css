@@ -116,6 +116,11 @@
     margin-left: 15px;
   }
 
+  .nav-link {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
   .nav_link:hover {
     border-bottom: 2px solid var(--regular-color);
     background-color: #fff;
@@ -205,6 +210,23 @@
     justify-self: end;
   }
 
+  .tabs_wrapp_btn {
+    flex-direction: row;
+  }
+  .wrap_tabs {
+    overflow-x: initial;
+  }
+
+  .nav-link {
+    text-align: end;
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .nav-pills {
+    flex-direction: column;
+  }
+
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -216,7 +238,7 @@
   }
 
   .nav-link:hover {
-    color: var(--accent-color)
+    color: var(--accent-color);
   }
   .footer {
     grid-template-areas: "f_contact_main copy" "f_contact_two f_contact_two";
