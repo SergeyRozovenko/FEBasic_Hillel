@@ -38,3 +38,8 @@ body.invert .main_header {
 .burger .burger_line {
   background-color: var(--white-color);
 }
+
+.scroll_down:hover circle.letter,
+.scroll_down:hover path.letter {
+  stroke: var(--accent-color);
+}
