@@ -152,6 +152,11 @@
     line-height: 46px;
   }
 
+  .tab_title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
   .team_img {
     height: 400px;
   }
@@ -235,9 +240,13 @@
   .nav-pills {
     flex-direction: column;
   }
+
   .tab-content {
     padding-left: var(--container-space);
     padding-top: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .wrapper {
