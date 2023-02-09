@@ -106,3 +106,19 @@ body.invert .main_header {
 .tab-pane.active {
   display: block;
 }
+
+/***********************************service_page************************/
+
+.service_link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--link-color);
+}
+
+.service_link::after {
+  content: url(../img/Arrow.png);
+  vertical-align: middle;
+}
