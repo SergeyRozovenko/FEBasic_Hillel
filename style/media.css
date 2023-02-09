@@ -213,6 +213,7 @@
   .tabs_wrapp_btn {
     flex-direction: row;
   }
+
   .wrap_tabs {
     overflow-x: initial;
     padding-bottom: initial;
@@ -234,12 +235,11 @@
   .nav-pills {
     flex-direction: column;
   }
-
-  .tab-pane {
-    border-top: none;
+  .tab-content {
     padding-left: var(--container-space);
     padding-top: initial;
   }
+
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }

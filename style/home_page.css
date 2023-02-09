@@ -83,14 +83,15 @@ body.invert .main_header {
   background-clip: text;
 }
 
+.tab-content {
+  padding-top: var(--container-space);
+}
 .tab-pane {
   display: none;
   font-weight: 400;
   font-size: 19px;
   line-height: 30px;
   color: var(--white-color);
-
-  padding-top: var(--container-space);
 }
 
 .tab-pane.active {
