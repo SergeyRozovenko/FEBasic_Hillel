@@ -248,7 +248,9 @@
     flex-direction: column;
     justify-content: center;
   }
-
+  .service_link:hover {
+    color: var(--accent-color);
+  }
   .wrapper {
     grid-template-columns: repeat(3, 1fr);
   }

@@ -118,7 +118,11 @@ body.invert .main_header {
   color: var(--link-color);
 }
 
-.service_link::after {
+/* .service_link::after {
   content: url(../img/Arrow.png);
   vertical-align: middle;
+} */
+
+.service_link:hover path.letter {
+  stroke: var(--accent-color);
 }
