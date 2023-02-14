@@ -256,6 +256,14 @@
   .wrapper_service {
     grid-template-columns: repeat(3, 1fr);
   }
+  .slider_img {
+    border-radius: 12px 0px 0px 12px;
+    width: 400px;
+    height: initial;
+  }
+  .slider_item {
+    display: flex;
+  }
 
   .wrapper_main {
     display: grid;
@@ -275,5 +283,17 @@
   }
   .copy {
     grid-area: copy;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slider_img {
+    height: 344px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .slider_img {
+    height: 298px;
   }
 }
