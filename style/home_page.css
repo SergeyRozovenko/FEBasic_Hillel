@@ -203,13 +203,14 @@ body.invert .main_header {
 .slick-dotted.slick-slider {
   margin-bottom: 60px;
 }
-/*************************brand-screen**********************/
 
 /*****************Publication****************/
 
 .public_wrapper {
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
+  border-bottom: 2px solid var(--separation-color);
+  padding-bottom: 30px;
 }
 
 .public_card {

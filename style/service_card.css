@@ -29,6 +29,10 @@
   color: var(--link-color);
 }
 
+.service_title:hover {
+  color: var(--accent-color);
+}
+
 .service_card_desc {
   line-height: 26px;
   color: var(--white-color);
