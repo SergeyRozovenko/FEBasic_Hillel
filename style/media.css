@@ -148,6 +148,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .brand_wrapper {
+    grid-template-columns: repeat(3, 4fr);
+  }
+
   .hero {
     font-size: 38px;
     line-height: 46px;
@@ -256,6 +260,7 @@
   .wrapper_service {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .slider_img {
     border-radius: 12px 0px 0px 12px;
     width: 400px;
@@ -264,6 +269,10 @@
 
   .slider_item.slick-slide {
     display: flex;
+  }
+
+  .brand_wrapper {
+    grid-template-columns: repeat(4, 3fr);
   }
 
   .wrapper_main {
@@ -296,5 +305,11 @@
 @media (min-width: 1920px) {
   .slider_img {
     height: 298px;
+  }
+
+  .brand_wrapper {
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
