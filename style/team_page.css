@@ -6,6 +6,10 @@
   gap: var(--container-space);
 }
 
+.space {
+  margin-top: 60px;
+}
+
 .team_img {
   height: 300px;
   border-radius: 12px;

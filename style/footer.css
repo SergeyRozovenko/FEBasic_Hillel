@@ -1,10 +1,5 @@
 /*****************************Footer*************************************/
 
-
-.main_footer {
-  margin-top: var(--container-space);
-}
-
 .footer {
   padding-top: var(--container-space);
   padding-bottom: var(--container-space);
