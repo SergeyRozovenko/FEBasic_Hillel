@@ -154,6 +154,19 @@
     overflow-y: initial;
   }
 
+  .public_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card_equity,
+  .card_penalty2 {
+    grid-column: span 1;
+  }
+
+  .card_mil {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
   .hero {
     font-size: 38px;
     line-height: 46px;
@@ -275,6 +288,17 @@
 
   .brand_wrapper {
     grid-template-columns: repeat(4, 3fr);
+  }
+
+  .public_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card_equity,
+  .card_penalty2,
+  .card_mil {
+    grid-column: span 1;
+    grid-row: auto;
   }
 
   .wrapper_main {

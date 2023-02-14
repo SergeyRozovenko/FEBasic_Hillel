@@ -316,3 +316,51 @@ body.invert .main_header {
 .ultimatecard {
   background: #000000;
 }
+
+/*****************Publication****************/
+
+.public_wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+
+.public_card {
+  background: var(--white-color);
+  border-radius: 8px;
+}
+
+.public_img {
+  border-radius: 8px 8px 0px 0px;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+.public_link_title {
+  gap: 15px;
+  padding: 30px;
+}
+
+.public_date {
+  border-bottom: 4px solid var(--separation-color);
+  padding-bottom: 15px;
+}
+
+.public_title {
+  font-weight: 700;
+  color: var(--link-color);
+}
+
+.public_date {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.public_description {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
