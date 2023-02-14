@@ -261,7 +261,8 @@
     width: 400px;
     height: initial;
   }
-  .slider_item {
+
+  .slider_item.slick-slide {
     display: flex;
   }
 
