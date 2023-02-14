@@ -273,6 +273,7 @@
 
   .brand_wrapper {
     grid-template-columns: repeat(4, 3fr);
+    height: initial;
   }
 
   .wrapper_main {

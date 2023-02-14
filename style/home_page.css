@@ -256,56 +256,62 @@ body.invert .main_header {
 
 .brand_wrapper {
   grid-template-columns: repeat(1, 1fr);
+  height: 720px;
+  overflow-y: auto;
 }
 
 .client_img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
-.client_wrap_hillel {
+.client_wrap {
+  height: 120px;
+}
+
+.hillel {
   background: #1c4280;
 }
 
-.client_wrap_wannabiz {
+.wannabiz {
   background: #143646;
 }
 
-.client_wrap_tapgerine {
+.tapgerine {
   background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
 }
 
-.client_wrap_3dlook {
+.look {
   background: #9e4dc3;
 }
 
-.client_wrap_orangear {
+.orangear {
   background: #fd9339;
 }
 
-.client_wrap_adtelligent {
+.adtelligent {
   background: #e2e2e4;
 }
 
-.client_wrap_clickky {
+.clickky {
   background: #c71c36;
 }
 
-.client_wrap_eco {
+.eco {
   background: #dcf3f9;
 }
 
-.client_wrap_ingratek {
+.ingratek {
   background: #eaeaea;
 }
 
-.client_wrap_city-par {
+.city-par {
   background: #282240;
 }
 
-.client_wrap_artprint {
+.artprint {
   background: #1d4568;
 }
 
-.client_wrap_ultimatecard {
+.ultimatecard {
   background: #000000;
 }
