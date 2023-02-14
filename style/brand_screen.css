@@ -1,0 +1,71 @@
+.brand_screen_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.brand_wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  height: 720px;
+  overflow-y: scroll;
+}
+
+.client_img {
+  object-fit: contain;
+  width: 217px;
+}
+
+.client_wrap {
+  height: 120px;
+}
+
+.hillel {
+  background: #1c4280;
+}
+
+.wannabiz {
+  background: #143646;
+}
+
+.tapgerine {
+  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
+}
+
+.look {
+  background: #9e4dc3;
+}
+
+.orangear {
+  background: #fd9339;
+}
+
+.adtelligent {
+  background: #e2e2e4;
+}
+
+.clickky {
+  background: #c71c36;
+}
+
+.eco {
+  background: #dcf3f9;
+}
+
+.ingratek {
+  background: #eaeaea;
+}
+
+.city-par {
+  background: #282240;
+}
+
+.artprint {
+  background: #1d4568;
+}
+
+.ultimatecard {
+  background: #000000;
+}

@@ -1,5 +1,7 @@
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./service_card.css);
+@import url(./brand_screen.css);
 
 body.invert .main_header {
   position: absolute;
@@ -134,7 +136,6 @@ body.invert .main_header {
 }
 
 /***********************************service_page************************/
-
 .service_link {
   font-weight: 700;
   font-size: 14px;
@@ -146,47 +147,6 @@ body.invert .main_header {
 
 .service_link:hover path.letter {
   stroke: var(--accent-color);
-}
-
-.service_card_title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 37px;
-  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.wrapper_service {
-  margin-top: var(--container-space);
-  margin-bottom: var(--container-space);
-}
-
-.wrap_service_img {
-  width: 92px;
-  height: 92px;
-  background: var(--white-color);
-  border-radius: 24px;
-}
-
-.service_title {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  color: var(--link-color);
-}
-
-.service_card_desc {
-  line-height: 26px;
-  color: var(--white-color);
-}
-
-.wrapper_service {
-  grid-template-columns: repeat(1, 1fr);
-  gap: var(--container-space);
 }
 
 /******************************slider************************/
@@ -245,78 +205,6 @@ body.invert .main_header {
 }
 /*************************brand-screen**********************/
 
-.brand_screen_title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.brand_wrapper {
-  grid-template-columns: repeat(1, 1fr);
-  height: 720px;
-  overflow-y: scroll;
-}
-
-.client_img {
-  object-fit: contain;
-  width: 217px;
-}
-
-.client_wrap {
-  height: 120px;
-}
-
-.hillel {
-  background: #1c4280;
-}
-
-.wannabiz {
-  background: #143646;
-}
-
-.tapgerine {
-  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
-}
-
-.look {
-  background: #9e4dc3;
-}
-
-.orangear {
-  background: #fd9339;
-}
-
-.adtelligent {
-  background: #e2e2e4;
-}
-
-.clickky {
-  background: #c71c36;
-}
-
-.eco {
-  background: #dcf3f9;
-}
-
-.ingratek {
-  background: #eaeaea;
-}
-
-.city-par {
-  background: #282240;
-}
-
-.artprint {
-  background: #1d4568;
-}
-
-.ultimatecard {
-  background: #000000;
-}
-
 /*****************Publication****************/
 
 .public_wrapper {
@@ -348,6 +236,10 @@ body.invert .main_header {
 .public_title {
   font-weight: 700;
   color: var(--link-color);
+}
+
+.public_title:hover {
+  color: var(--accent-color);
 }
 
 .public_date {
