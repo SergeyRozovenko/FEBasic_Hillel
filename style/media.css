@@ -353,4 +353,8 @@
   .ultimatecard {
     border-radius: 0px 0px 12px 0px;
   }
+
+  .publication_section {
+    margin-top: 60px;
+  }
 }
