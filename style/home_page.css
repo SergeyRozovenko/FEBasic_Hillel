@@ -257,11 +257,12 @@ body.invert .main_header {
 .brand_wrapper {
   grid-template-columns: repeat(1, 1fr);
   height: 720px;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .client_img {
   object-fit: contain;
+  width: 217px;
 }
 
 .client_wrap {

@@ -150,6 +150,8 @@
 
   .brand_wrapper {
     grid-template-columns: repeat(3, 4fr);
+    height: initial;
+    overflow-y: initial;
   }
 
   .hero {
@@ -273,7 +275,6 @@
 
   .brand_wrapper {
     grid-template-columns: repeat(4, 3fr);
-    height: initial;
   }
 
   .wrapper_main {
