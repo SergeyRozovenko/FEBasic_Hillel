@@ -1,0 +1,65 @@
+@import url(../style/header.css);
+@import url(../style/footer.css);
+@import url(../style/service_card.css);
+@import url(../style/brand_screen.css);
+
+.wrapper_gradient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0px 0px 12px 12px;
+  position: relative;
+}
+
+.card_screen {
+  margin-top: var(--container-space);
+}
+.wrapper_gradient::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 20px;
+  height: 20px;
+  width: calc(100% - 40px);
+  border-radius: 20px;
+  background: var(--block-color);
+  z-index: -1;
+}
+
+.wrapper_gradient::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% - 20px);
+  left: 40px;
+  height: 40px;
+  width: calc(100% - 80px);
+  border-radius: 20px;
+  background: var(--block-color2);
+  z-index: -2;
+}
+.h_screen {
+  aspect-ratio: 375/600;
+  background: url(../img/Symbol.png) no-repeat center/cover;
+}
+
+.h_screen_title {
+  width: 315px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: var(--white-color);
+}
+
+.info_header {
+  background-color: rgba(245, 245, 250, 0.2);
+}
+
+.burger .burger_line {
+  background-color: var(--white-color);
+}
