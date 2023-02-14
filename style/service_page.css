@@ -17,6 +17,7 @@
 .card_screen {
   margin-top: var(--container-space);
 }
+
 .wrapper_gradient::before {
   content: "";
   display: block;
@@ -41,19 +42,6 @@
   border-radius: 20px;
   background: var(--block-color2);
   z-index: -2;
-}
-.h_screen {
-  aspect-ratio: 375/600;
-  background: url(../img/Symbol.png) no-repeat center/cover;
-}
-
-.h_screen_title {
-  width: 315px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 46px;
-  color: var(--white-color);
 }
 
 .info_header {
