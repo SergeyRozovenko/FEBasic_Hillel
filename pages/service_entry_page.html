@@ -122,6 +122,29 @@
                     </ul>
                 </div>
             </div>
+            <div class="popup_wrapper">
+                <div class="form_feedback desktop">
+                    <span class="close">&times;</span>
+                    <h2 class="hero_Form">We would like to help you</h2>
+                    <form action="https://fom.in.ua/echo" method="post" class="feedback">
+                        <label class="name">
+                            <input type="text" name="Name" placeholder="Name" class="form_Name input_Size pb15">
+                        </label>
+                        <label class="message">
+                            <textarea name="Message" class="form_Message pb15" placeholder="Message"></textarea>
+                        </label>
+                        <label class="name_Label">
+                            <span class="phone_L"> How to answer you?</span>
+                            <input type="tel" name="Telephone" pattern=".{10,}" class="form_Phone input_Size pb15"
+                                placeholder="Phone number" title="Please enter only number">
+                        </label>
+                        <label class="email">
+                            <input type="email" name="Email" class="form_Email input_Size pb15" placeholder="Email">
+                        </label>
+                        <input type="submit" value="Send Message" class="form_Submit input_Size">
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
     <main>
@@ -269,6 +292,7 @@
             </div>
         </div>
     </footer>
+    <script src="../js/script2.js"></script>
 </body>
 
 </html>
