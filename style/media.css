@@ -243,11 +243,19 @@
     flex-direction: row;
   }
 
+  .tab-content {
+    border-top: none;
+  }
   .wrap_tabs {
     overflow-x: initial;
     padding-bottom: initial;
     border-right: 4px solid rgba(255, 255, 255, 0.3);
     border-bottom: initial;
+    margin-right: initial;
+    margin-left: initial;
+    width: initial;
+    padding-left: initial;
+    padding-right: initial;
   }
   .form_feedback.desktop {
     width: 650px;
