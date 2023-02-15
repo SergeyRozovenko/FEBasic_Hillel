@@ -192,6 +192,10 @@
     transform: none;
   }
 
+  .list_It {
+    columns: 2;
+    gap: 60px;
+  }
   .footer {
     display: grid;
     grid-template-areas: "f_contact_main" "f_contact_two";
@@ -325,6 +329,11 @@
 @media (min-width: 1440px) {
   .slider_img {
     height: 344px;
+  }
+
+  .width {
+    padding-right: 180px;
+    padding-left: 180px;
   }
 }
 
