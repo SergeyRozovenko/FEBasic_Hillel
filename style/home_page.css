@@ -2,6 +2,7 @@
 @import url(./footer.css);
 @import url(./service_card.css);
 @import url(./brand_screen.css);
+@import url(./publication_down.css);
 
 body.invert .main_header {
   position: absolute;
@@ -9,42 +10,6 @@ body.invert .main_header {
   width: 100%;
 }
 
-.wrapper_gradient {
-  background: linear-gradient(
-    228.57deg,
-    #323264 11.93%,
-    #323264 57.17%,
-    #643e72 87.46%
-  );
-  border-radius: 0px 0px 12px 12px;
-  position: relative;
-}
-
-.wrapper_gradient::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: calc(100% - 10px);
-  left: 20px;
-  height: 20px;
-  width: calc(100% - 40px);
-  border-radius: 20px;
-  background: var(--block-color);
-  z-index: -1;
-}
-
-.wrapper_gradient::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: calc(100% - 20px);
-  left: 40px;
-  height: 40px;
-  width: calc(100% - 80px);
-  border-radius: 20px;
-  background: var(--block-color2);
-  z-index: -2;
-}
 .h_screen {
   aspect-ratio: 375/600;
   background: url(../img/Symbol.png) no-repeat center/cover;
@@ -202,58 +167,4 @@ body.invert .main_header {
 
 .slick-dotted.slick-slider {
   margin-bottom: 60px;
-}
-
-/*****************Publication****************/
-
-.public_wrapper {
-  grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
-  border-bottom: 2px solid var(--separation-color);
-  padding-bottom: 30px;
-}
-
-.public_card {
-  background: var(--white-color);
-  border-radius: 8px;
-}
-
-.public_img {
-  border-radius: 8px 8px 0px 0px;
-  height: 200px;
-  object-fit: cover;
-  width: 100%;
-}
-.public_link_title {
-  gap: 15px;
-  padding: 30px;
-}
-
-.public_date {
-  border-bottom: 4px solid var(--separation-color);
-  padding-bottom: 15px;
-}
-
-.public_title {
-  font-weight: 700;
-  color: var(--link-color);
-}
-
-.public_title:hover {
-  color: var(--accent-color);
-}
-
-.public_date {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--text-color);
-}
-
-.public_description {
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
 }

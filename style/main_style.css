@@ -89,6 +89,43 @@ select {
   max-width: calc(var(--container-wide-width) + var(--container-space) * 2);
 }
 
+.wrapper_gradient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0px 0px 12px 12px;
+  position: relative;
+}
+
+.wrapper_gradient::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 20px;
+  height: 20px;
+  width: calc(100% - 40px);
+  border-radius: 20px;
+  background: var(--block-color);
+  z-index: -1;
+}
+
+.wrapper_gradient::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% - 20px);
+  left: 40px;
+  height: 40px;
+  width: calc(100% - 80px);
+  border-radius: 20px;
+  background: var(--block-color2);
+  z-index: -2;
+}
+
 .contact_page:hover svg path.letter {
   fill: var(--accent-color);
 }
