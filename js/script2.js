@@ -1,6 +1,6 @@
 const button = document.querySelector ('.service_btn')
 const popup = document.querySelector ('.popup_wrapper')
-const close = document.querySelector ('span.close')
+const close = document.querySelector ('svg.close_up')
 
 
 button.addEventListener('click', clickHandler)

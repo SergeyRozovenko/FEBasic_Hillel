@@ -120,15 +120,10 @@
 }
 
 .close {
-  font-size: 3rem;
-  line-height: 0;
   cursor: pointer;
   color: #ec6f5d;
   position: absolute;
-  top: 8%;
   left: 90%;
-  text-align: center;
-  padding: 32px;
 }
 
 .close:hover {
