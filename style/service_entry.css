@@ -62,8 +62,19 @@
   color: var(--white-color);
   font-size: 18px;
   line-height: 26px;
+  position: relative;
+  padding-left: 15px;
 }
 
 .info_It + .info_It {
   margin-top: 15px;
+}
+
+.list_It li::before {
+  content: "\2022";
+  font-size: 26px;
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  /* top: 0.5rem; */
 }
