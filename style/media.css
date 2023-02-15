@@ -73,6 +73,14 @@
     display: none;
   }
 
+  .wrap_tabs {
+    margin-right: -60px;
+    margin-left: -60px;
+    width: calc(100% + 120px);
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .header {
     display: grid;
     grid-template-areas: "info" "logo" "navigation";
@@ -250,6 +258,11 @@
     overflow-x: initial;
     padding-bottom: initial;
     border-right: 4px solid rgba(255, 255, 255, 0.3);
+    margin-right: -60px;
+    margin-left: -60px;
+    width: calc(100% + 120px);
+    padding-left: 60px;
+    padding-right: 60px;
     border-bottom: initial;
     margin-right: initial;
     margin-left: initial;
