@@ -72,11 +72,15 @@
   position: relative;
   padding-left: 15px;
 }
+
 .info_It::before {
   content: "\2022";
   font-size: 30px;
   color: var(--accent-color);
   position: absolute;
   left: 0;
-  /* top: 0.5rem; */
+}
+
+.publication_section {
+  margin-top: 60px;
 }
